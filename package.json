@@ -17,7 +17,7 @@
   },
   "description": ":clock3: A clock of the Eorzea time.",
   "devDependencies": {
-    "ava": "^0.25.0",
+    "ava": "^2.2.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "eslint": "^5.16.0",
