@@ -4576,9 +4576,9 @@ merge2@^1.3.0:
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
 
 microbundle@^0.13.0:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/microbundle/-/microbundle-0.13.1.tgz#c65307026f2862147bd4dcea267eb2f3eaa9e79d"
-  integrity sha512-dwwSJp5WjQ3eRievTItnZtqa2blufQJgeExUWCwvKFYKB3L4xOAZ6bPdRVgzq1rKmi8RybNo6eukJU3Zcx+1JA==
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/microbundle/-/microbundle-0.13.3.tgz#cfc5055b50cf7a0bcc5eec441604f4520ccd07ec"
+  integrity sha512-nlP20UmyqGGeh6jhk8VaVFEoRlF+JAvnwixPLQUwHEcAF59ROJCyh34eylJzUAVNvF3yrCaHxIBv8lYcphDM1g==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/plugin-proposal-class-properties" "7.12.1"
@@ -4616,6 +4616,7 @@ microbundle@^0.13.0:
     rollup-plugin-terser "^7.0.2"
     rollup-plugin-typescript2 "^0.29.0"
     sade "^1.7.4"
+    terser "^5.7.0"
     tiny-glob "^0.2.8"
     tslib "^2.0.3"
     typescript "^4.1.3"
@@ -6391,10 +6392,10 @@ terminal-link@^2.0.0:
     ansi-escapes "^4.2.1"
     supports-hyperlinks "^2.0.0"
 
-terser@^5.0.0:
-  version "5.5.1"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-5.5.1.tgz#540caa25139d6f496fdea056e414284886fb2289"
-  integrity sha512-6VGWZNVP2KTUcltUQJ25TtNjx/XgdDsBDKGt8nN0MpydU36LmbPPcMBd2kmtZNNGVVDLg44k7GKeHHj+4zPIBQ==
+terser@^5.0.0, terser@^5.7.0:
+  version "5.7.2"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.7.2.tgz#d4d95ed4f8bf735cb933e802f2a1829abf545e3f"
+  integrity sha512-0Omye+RD4X7X69O0eql3lC4Heh/5iLj3ggxR/B5ketZLOtLiOqukUgjw3q4PDnNQbsrkKr3UMypqStQG3XKRvw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.7.2"
