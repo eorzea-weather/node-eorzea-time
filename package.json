@@ -43,7 +43,7 @@
     "url": "https://github.com/eorzea-weather/eorzea-time.git"
   },
   "resolutions": {
-    "microbundle/tslib": "^2.7.0"
+    "microbundle/tslib": "^2.8.0"
   },
   "scripts": {
     "build": "microbundle",
