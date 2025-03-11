@@ -19,7 +19,7 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
       - uses: actions/setup-node@v2
         with:
-          node-version: 14.21.3
+          node-version: 22.14.0
           registry-url: https://registry.npmjs.org
           cache: yarn
         if: ${{ steps.release.outputs.release_created }}
