@@ -6,8 +6,8 @@
   "description": ":clock3: A clock of the Eorzea time.",
   "devDependencies": {
     "@types/jest": "^27.5.2",
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "@typescript-eslint/parser": "^4.33.0",
+    "@typescript-eslint/eslint-plugin": "^8.27.0",
+    "@typescript-eslint/parser": "^8.27.0",
     "eslint": "^7.32.0",
     "jest": "^27.5.1",
     "microbundle": "^0.14.2",
